@@ -5,7 +5,7 @@
 from typing import Optional, Tuple
 
 import torch
-from modelnetx.scatter.scatter import scatter
+from topomodelx.scatter.scatter import scatter
 from torch import Tensor
 
 
