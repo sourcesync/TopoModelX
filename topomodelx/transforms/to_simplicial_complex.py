@@ -1,7 +1,7 @@
 """Convert complexes to simplicial complexes."""
 
 import gudhi
-from toponetx import SimplicialComplex
+from toponetx.classes import SimplicialComplex
 
 
 def simplicial_complex_closure_of_hypergraph(H):
