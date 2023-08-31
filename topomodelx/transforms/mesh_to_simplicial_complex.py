@@ -4,7 +4,7 @@ __all__ = ["read_mesh", "mesh_2_operators"]
 
 
 import numpy as np
-from toponetx import SimplicialComplex
+from toponetx.classes import SimplicialComplex
 
 from topomodelx.util.tensors_util import coo_2_torch_tensor  # NOQA
 
